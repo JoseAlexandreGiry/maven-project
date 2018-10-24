@@ -20,7 +20,20 @@
     <module>server</module>
     <module>webapp</module>
   </modules>
-
+<scm>
+         <url>https://github.com/JoseAlexandreGiry/maven-project</url>
+         <connection>scm:git:git://github.com/JoseAlexandreGiry/maven-project.git</connection>
+            <developerConnection>scm:git:git@github.com://github.com/JoseAlexandreGiry/maven-project.git</developerConnection>
+         </scm>
+         
+       <developers>
+		<developer>
+			<email>josealexandre.giry@gmail.com</email>
+			<name>Jose</name>
+			<url>https://github.com/JoseAlexandreGiry</url>
+			<id>JoseAlexandreGiry</id>
+		</developer>
+	</developers>
   <distributionManagement>
     <site>
       <id>site-server</id>
@@ -161,20 +174,7 @@
       </plugins>
     </pluginManagement>
   </build>
-<scm>
-         <url>https://github.com/JoseAlexandreGiry/maven-project</url>
-         <connection>scm:git:git://github.com/JoseAlexandreGiry/maven-project.git</connection>
-            <developerConnection>scm:git:git@github.com://github.com/JoseAlexandreGiry/maven-project.git</developerConnection>
-         </scm>
-         
-       <developers>
-		<developer>
-			<email>josealexandre.giry@gmail.com</email>
-			<name>Jose</name>
-			<url>https://github.com/JoseAlexandreGiry</url>
-			<id>JoseAlexandreGiry</id>
-		</developer>
-	</developers>
+
        
   <dependencyManagement>
     <dependencies>
